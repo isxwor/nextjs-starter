@@ -49,6 +49,10 @@
         "variables": true
       }
     ],
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      { "argsIgnorePattern": "^_" }
+    ],
     "tailwindcss/no-custom-classname": 0
   },
   "settings": {
