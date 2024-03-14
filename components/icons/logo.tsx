@@ -1,6 +1,10 @@
-import { type LucideProps } from 'lucide-react';
+type IconProps = React.SVGAttributes<SVGElement> & {
+  children?: never;
+  color?: string;
+};
 
-export const Logo = (props: LucideProps) => (
+// eslint-disable-next-line react/require-default-props
+export const Logo = (props: IconProps) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     viewBox='0 0 24 24'

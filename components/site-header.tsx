@@ -1,9 +1,8 @@
 import Link from 'next/link';
 
-import { Twitter } from 'lucide-react';
+import { GitHubLogoIcon, TwitterLogoIcon } from '@radix-ui/react-icons';
 
 import { buttonVariants } from '#/components/ui/button';
-import { GitHub } from '#/components/icons/github';
 import { MainNav } from '#/components/main-nav';
 import { ThemeToggle } from '#/components/theme-toggle';
 
@@ -26,7 +25,7 @@ export const SiteHeader = () => (
                 variant: 'ghost',
               })}
             >
-              <GitHub className='h-5 w-5' />
+              <GitHubLogoIcon className='h-5 w-5' />
               <span className='sr-only'>GitHub</span>
             </div>
           </Link>
@@ -41,7 +40,7 @@ export const SiteHeader = () => (
                 variant: 'ghost',
               })}
             >
-              <Twitter className='h-5 w-5 fill-current' />
+              <TwitterLogoIcon className='h-5 w-5 fill-current' />
               <span className='sr-only'>Twitter</span>
             </div>
           </Link>
