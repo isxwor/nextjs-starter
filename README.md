@@ -4,7 +4,7 @@ A Next.js 14 template for building apps with Radix UI and Tailwind CSS.
 
 ## Features
 
-- Next.js 13 App Directory
+- Next.js 14 App Directory
 - Radix UI Primitives
 - Tailwind CSS
 - Icons from [Lucide](https://lucide.dev)
